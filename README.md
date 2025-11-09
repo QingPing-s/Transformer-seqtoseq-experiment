@@ -27,7 +27,7 @@
 - 训练过程可视化
 - 实验结果对比分析
 
-  🏗️ 模型架构
+### 5.🏗️ 模型架构
 Transformer 架构
 本项目实现了标准的 Transformer Encoder-Decoder 架构，包含以下核心组件：
 
