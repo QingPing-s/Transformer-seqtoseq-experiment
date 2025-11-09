@@ -100,7 +100,7 @@ python analyze_results.py
 ```
 
 # 📊 实验结果
-###损失和困惑度
+### 损失和困惑度
 <img width="4470" height="1466" alt="training_curves_base" src="https://github.com/user-attachments/assets/b486af3e-e578-4cda-ace9-77abd837af40" />
 
 
