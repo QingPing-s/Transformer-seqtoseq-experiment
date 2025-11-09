@@ -32,13 +32,16 @@ Transformer-seqtoseq-experiment/
     └── experiments/
 ```
 
-### ⚡快速开始
+### ⚙️ 环境配置
 ```text
-# 创建虚拟环境
-```text
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate    # Windows
+torch>=2.0.0
+torchtext>=0.15.0
+datasets>=2.10.0
+tokenizers>=0.13.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+tqdm>=4.64.0
+sacrebleu>=2.2.0
 ```
 
 # 安装依赖
@@ -84,7 +87,8 @@ python train.py
 python analyze_results.py
 ```
 
-📊 实验结果示例
+### 📊 实验结果
+
 <img width="400" height="292" alt="4" src="https://github.com/user-attachments/assets/aedee79a-c239-4abb-869c-9dfdaeae3073" />
 <img width="394" height="294" alt="5" src="https://github.com/user-attachments/assets/1acb9451-9a95-4374-85d8-04801312bc2b" />
 
