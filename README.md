@@ -43,6 +43,15 @@ matplotlib>=3.5.0
 tqdm>=4.64.0
 sacrebleu>=2.2.0
 ```
+### ⚙️ 硬件要求
+
+| 组件 | 推荐版本 | 说明 |
+| :--- | :--- | :--- |
+| Python | ≥3.9 | 3.9~3.11均可 |
+| PyTorch | ≥2.0 | 支持CUDA |
+| datasets | ≥3.0 | 自动下载IWSLT2017或手动下载 |
+| GPU | RTX 3060 / A100  | 推荐显存≥6GB |
+| 操作系统 | Linux / Windows | 均可运行 |
 
 ### 安装依赖
 ```text
