@@ -90,7 +90,11 @@ python train.py
 python analyze_results.py
 ```
 
-# 📊 实验结果示例
+# 📊 实验结果
+###损失和困惑度
+<img width="4470" height="1466" alt="training_curves_base" src="https://github.com/user-attachments/assets/b486af3e-e578-4cda-ace9-77abd837af40" />
+
+
 ### 训练时间和模型参数
 <img width="529" height="215" alt="Snipaste_2025-11-09_11-31-59" src="https://github.com/user-attachments/assets/c9d97295-adab-492e-ae77-ddbf00054421" />
 
