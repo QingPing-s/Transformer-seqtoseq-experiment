@@ -7,7 +7,7 @@
 
 📊 消融实验：6种不同配置的对比分析
 
-🎯 进阶功能：梯度裁剪、困惑度分析、学习率调度等
+🎯 进阶功能：梯度裁剪、学习率调度、参数统计、相对编码等
 
 📈 可视化：完整的训练曲线和实验结果分析
 
@@ -90,8 +90,9 @@ python train.py
 python analyze_results.py
 ```
 
-### 📊 实验结果
-
+### 📊 实验结果示例
+<img width="529" height="215" alt="Snipaste_2025-11-09_11-31-59" src="https://github.com/user-attachments/assets/c9d97295-adab-492e-ae77-ddbf00054421" />
+<img width="315" height="309" alt="Snipaste_2025-11-09_11-36-01" src="https://github.com/user-attachments/assets/266739c0-140a-4679-97a2-372430627fea" />
 <img width="400" height="292" alt="4" src="https://github.com/user-attachments/assets/aedee79a-c239-4abb-869c-9dfdaeae3073" />
 <img width="394" height="294" alt="5" src="https://github.com/user-attachments/assets/1acb9451-9a95-4374-85d8-04801312bc2b" />
 
