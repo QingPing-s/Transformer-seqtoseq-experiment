@@ -33,17 +33,19 @@ Transformer-seqtoseq-experiment/
 ```
 
 ### ⚡快速开始
-# 克隆项目
-git clone https://github.com/your-username/transformer-assignment.git
-cd transformer-assignment
-
+```text
 # 创建虚拟环境
+```text
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 # venv\Scripts\activate    # Windows
+```
 
 # 安装依赖
+```text
 pip install -r requirements.txt
+```
+
 
 ### 数据准备
 ```text
@@ -51,11 +53,14 @@ data/
 ├── iwslt2017-train.arrow
 ├── iwslt2017-validation.arrow
 └── iwslt2017-test.arrow
-```t
+```
 
 ### 基础训练
 # 设置随机种子确保可复现性
+```text
 python -c "import torch; torch.manual_seed(42)"
+```
+
 
 # 运行基础训练
 python train.py
@@ -71,9 +76,13 @@ Epoch 1/10 - 45s
 项目支持6种不同的实验配置对比：
 
 #单个实验
+```text
 python train.py
+```
 #结果分析
+```text
 python analyze_results.py
+```
 
 📊 实验结果示例
 <img width="400" height="292" alt="4" src="https://github.com/user-attachments/assets/aedee79a-c239-4abb-869c-9dfdaeae3073" />
