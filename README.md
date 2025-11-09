@@ -14,32 +14,9 @@
 🔧 模块化设计：易于扩展和修改的代码结构
 
 
-src/
-├── model_relpos.py           # 模型定义（Encoder–Decoder + 相对位置偏置）
-├── data_iwslt.py             # 数据加载与 SentencePiece 分词器
-├── train_mt.py               # 训练与验证
-├── eval_bleu.py              # BLEU 评估
-├── sample_mt.py              # 翻译示例
-├── run_sensitivity.py        # 超参数敏感性分析脚本
-├── ablation/                 # 消融实验相关文件
-│   ├── model_ablation.py     # 支持消融实验的模型实现
-│   ├── model_no_relpos.py    # 无相对位置偏置的模型变体
-│   ├── train_ablation.py     # 消融实验训练脚本
-│   ├── run_ablation_relpos.py# 相对位置偏置消融实验
-│   └── run_comprehensive_ablation_v2.py # 综合消融实验
-scripts/
-├── run_iwslt.sh              # 一键运行脚本
-results/
-├── run_experiments/          # 各实验结果目录
-│   ├── run_base/             # 基线模型结果
-│   └── sensitivity/          # 超参分析实验结果
-├── ablation_comprehensive_summary.csv # 消融实验结果汇总
-├── sensitivity_d_model.csv   # d_model 敏感性分析结果
-├── sensitivity_num_layers.csv# 层数敏感性分析结果
-└── sensitivity_batch_size.csv# 批大小敏感性分析结果
-
 
 ### 项目结构
+```text
 Transformer-seqtoseq-experiment/
 ├── src/                    # 源代码目录
 │   ├── model.py           # Transformer模型实现
@@ -53,6 +30,7 @@ Transformer-seqtoseq-experiment/
     ├── training_curves_*.png
     ├── ablation_*.png
     └── experiments/
+```
 
 ### ⚡快速开始
 # 克隆项目
