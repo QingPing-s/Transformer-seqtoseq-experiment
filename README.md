@@ -1,2 +1,26 @@
-# Transformer-seqtoseq-experiment
-Transformer-SeqToSeq
+# Transformer 实现作业 - 进阶功能
+
+### 1. 梯度裁剪与监控
+- 实现了梯度裁剪防止梯度爆炸
+- 梯度分布可视化分析
+- 训练稳定性监控
+
+### 2. 困惑度分析
+- 自动计算训练和验证困惑度
+- 困惑度曲线可视化
+- 模型性能量化评估
+
+### 3. 消融实验系统
+支持以下消融实验配置：
+- `base`: 基础配置
+- `no_positional_encoding`: 无位置编码
+- `no_residual`: 无残差连接和层归一化  
+- `single_head`: 单头注意力机制
+- `small_model`: 小模型配置
+- `no_scheduler`: 无学习率调度
+- `high_dropout`: 高dropout率
+
+### 4. 实验管理
+- 自动保存实验配置和结果
+- 训练过程可视化
+- 实验结果对比分析
