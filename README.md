@@ -1,11 +1,4 @@
-torch>=2.0.0
-torchtext>=0.15.0
-datasets>=2.10.0
-tokenizers>=0.13.0
-numpy>=1.21.0
-matplotlib>=3.5.0
-tqdm>=4.64.0
-sacrebleu>=2.2.0
+
 
 # Transformer 实现作业 - 进阶功能
 
