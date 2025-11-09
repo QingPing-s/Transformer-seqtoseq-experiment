@@ -53,31 +53,26 @@ python -c "import torch; torch.manual_seed(42)"
 
 # 运行基础训练
 python train.py
-
-训练过程中会显示实时进度和指标：
+#训练过程中会显示实时进度和指标：
 Epoch 1/10 - 45s
   训练损失: 4.2156, 训练困惑度: 67.72
   验证损失: 3.9872, 验证困惑度: 53.91, 验证准确率: 0.1245
   学习率: 3.00e-04
   ✓ 新的最佳模型已保存
 
-###🔬 实验功能
+### 🔬实验功能
 消融实验
 项目支持6种不同的实验配置对比：
 
 #单个实验
 python train.py
-结果分析
-训练完成后，使用分析脚本生成可视化报告：
-
-bash
-复制
+#结果分析
 python analyze_results.py
+
 📊 实验结果示例
-训练曲线
-消融实验对比
-典型结果（IWSLT2017验证集）
-配置
+<img width="400" height="292" alt="4" src="https://github.com/user-attachments/assets/aedee79a-c239-4abb-869c-9dfdaeae3073" />
+<img width="394" height="294" alt="5" src="https://github.com/user-attachments/assets/1acb9451-9a95-4374-85d8-04801312bc2b" />
+
 
 
 
