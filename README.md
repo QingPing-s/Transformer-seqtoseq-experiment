@@ -46,10 +46,12 @@ source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 
 ### 数据准备
+```text
 data/
 ├── iwslt2017-train.arrow
 ├── iwslt2017-validation.arrow
 └── iwslt2017-test.arrow
+```t
 
 ### 基础训练
 # 设置随机种子确保可复现性
