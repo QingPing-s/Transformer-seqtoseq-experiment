@@ -44,7 +44,7 @@ tqdm>=4.64.0
 sacrebleu>=2.2.0
 ```
 
-# 安装依赖
+### 安装依赖
 ```text
 pip install -r requirements.txt
 ```
@@ -58,14 +58,14 @@ data/
 └── iwslt2017-test.arrow
 ```
 
-### 基础训练
-# 设置随机种子确保可复现性
+# 基础训练
+### 设置随机种子确保可复现性
 ```text
 python -c "import torch; torch.manual_seed(42)"
 ```
 
 
-# 运行基础训练
+### 运行基础训练
 python train.py
 #训练过程中会显示实时进度和指标：
 Epoch 1/10 - 45s
@@ -74,15 +74,14 @@ Epoch 1/10 - 45s
   学习率: 3.00e-04
   ✓ 新的最佳模型已保存
 
-### 🔬实验功能
-消融实验
+### 🔬消融实验
 项目支持6种不同的实验配置对比：
 
-#单个实验
+### 单个实验
 ```text
 python train.py
 ```
-#结果分析
+### 结果分析
 ```text
 python analyze_results.py
 ```
